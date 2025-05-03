@@ -152,7 +152,7 @@ export const HeroSection: React.FC = () => {
             >
               <img 
                 src="/images/about.png" 
-                alt="Portrait of John Doe" 
+                alt="Portrait of Afif" 
                 className="w-full h-auto"
               />
             </div>

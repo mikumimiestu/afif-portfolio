@@ -98,7 +98,7 @@ export const AboutSection: React.FC = () => {
               <div className="absolute inset-0 rounded-xl bg-primary-500 dark:bg-primary-700 transform rotate-6"></div>
               <img 
                 src="/images/about.png"
-                alt="John Doe working at desk" 
+                alt="Afif" 
                 className="relative z-10 rounded-xl shadow-lg w-full h-auto transform hover:scale-[1.02] transition-transform duration-300"
               />
             </div>
