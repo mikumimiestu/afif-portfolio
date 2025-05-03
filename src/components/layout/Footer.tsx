@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, Instagram } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,28 +16,28 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://github.com/Fleurdelys-1" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 aria-label="Github"
               >
                 <Github size={20} />
               </a>
-              <a 
+              {/* {/* <a 
                 href="#" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={20} />
-              </a>
+              </a> */}
               <a 
-                href="#" 
+                href="https://www.instagram.com/_4pippp/" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={20} />
+                <Instagram size={20} />
               </a>
               <a 
-                href="#" 
+                href="mailto:afif@technovagroupinc.com" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 aria-label="Email"
               >
@@ -67,16 +67,15 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Contact</h3>
             <address className="not-italic">
-              <p className="text-gray-600 dark:text-gray-400 mb-2">Email: contact@example.com</p>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">Phone: +1 (555) 123-4567</p>
-              <p className="text-gray-600 dark:text-gray-400">Location: New York, USA</p>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">Email: afif@technovagroupinc.com</p>
+              <p className="text-gray-600 dark:text-gray-400">Location: Padang, West Sumatera, Indonesia</p>
             </address>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <p className="text-center text-gray-600 dark:text-gray-400">
-            © {currentYear} Your Portfolio. All rights reserved.
+            © {currentYear} Afif. All rights reserved.
           </p>
         </div>
       </div>

@@ -130,13 +130,13 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-800 dark:text-white">Email</h4>
-                    <a href="mailto:contact@example.com" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                      contact@example.com
+                    <a href="mailto:afif@technovagroupinc.com" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                      afif@technovagroupinc.com
                     </a>
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4">
+                {/* <div className="flex items-start gap-4">
                   <div className="p-3 rounded-full bg-primary-100 dark:bg-primary-900/50 text-primary-600 dark:text-primary-400">
                     <Phone className="w-6 h-6" />
                   </div>
@@ -146,7 +146,7 @@ export const ContactSection: React.FC = () => {
                       +1 (234) 567-890
                     </a>
                   </div>
-                </div>
+                </div> */}
                 
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-full bg-primary-100 dark:bg-primary-900/50 text-primary-600 dark:text-primary-400">
@@ -155,7 +155,7 @@ export const ContactSection: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-medium text-gray-800 dark:text-white">Location</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      New York, NY, United States
+                      Padang, West Sumatera, Indonesia
                     </p>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export const ContactSection: React.FC = () => {
                           ? 'border-red-500 dark:border-red-500' 
                           : 'border-gray-300 dark:border-gray-600'
                       } bg-white dark:bg-gray-800 text-gray-800 dark:text-white focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 focus:border-transparent`}
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                     />
                     {errors.name && (
                       <p className="mt-1 text-sm text-red-500">{errors.name}</p>
@@ -249,7 +249,7 @@ export const ContactSection: React.FC = () => {
                           ? 'border-red-500 dark:border-red-500' 
                           : 'border-gray-300 dark:border-gray-600'
                       } bg-white dark:bg-gray-800 text-gray-800 dark:text-white focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 focus:border-transparent`}
-                      placeholder="john@example.com"
+                      placeholder="email@example.com"
                     />
                     {errors.email && (
                       <p className="mt-1 text-sm text-red-500">{errors.email}</p>

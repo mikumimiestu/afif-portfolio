@@ -91,9 +91,9 @@ export const SkillsSection: React.FC = () => {
           <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Additional Skills</h3>
           <div className="flex flex-wrap gap-2">
             {[
-              'RESTful APIs', 'Redux', 'SASS/SCSS', 'Jest', 'CI/CD', 'Webpack', 
-              'Vite', 'Responsive Design', 'SEO', 'WordPress', 'Firebase', 'Git Flow',
-              'Docker', 'Agile/Scrum', 'TDD', 'Performance Optimization'
+              'SASS/SCSS',
+              'Vite', 'Responsive Design', 'SEO', 'WordPress',
+              'Performance Optimization'
             ].map((skill) => (
               <span 
                 key={skill} 

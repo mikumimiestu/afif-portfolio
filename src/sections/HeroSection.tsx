@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from '../hooks/useTheme';
 import { AnimatedText } from '../components/ui/AnimatedText';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Instagram, Linkedin, Mail } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 
 export const HeroSection: React.FC = () => {
@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
   const roles = ['Web Developer', 'UI/UX Designer', 'Frontend Engineer', 'Creative Coder'];
   const [roleIndex, setRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [delta, setDelta] = useState(200 - Math.random() * 100);
+  const [delta, setDelta] = useState(100 - Math.random() * 1000);
   
   useEffect(() => {
     setIsMounted(true);
@@ -80,7 +80,7 @@ export const HeroSection: React.FC = () => {
               </div>
               
               <AnimatedText
-                text="Hello, I'm John Doe"
+                text="Hello, I'm Afif"
                 as="h1"
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4"
                 staggerDelay={0.05}
@@ -95,13 +95,20 @@ export const HeroSection: React.FC = () => {
                 </span>
               </div>
               
-              <AnimatedText
+              {/* <AnimatedText
                 text="Building beautiful, functional web experiences with clean code and creative solutions."
                 as="p"
                 className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg"
                 staggerDelay={0.015}
                 initialDelay={0.8}
-              />
+              /> */}
+
+              <div className="flex items-center gap-4 mb-6 opacity-0 animate-slide-up" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
+                <span className="text-sm text-gray-600 dark:text-gray-400">Based in</span>
+                <span className="text-sm font-semibold text-gray-900 dark:text-white">Padang, West Sumatera, Indonesia</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">|</span>
+                <span className="text-sm font-semibold text-gray-900 dark:text-white">Available for project</span>
+              </div>
               
               <div className="flex flex-wrap gap-4 mb-12 opacity-0 animate-slide-up" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
                 <Button 
@@ -118,14 +125,17 @@ export const HeroSection: React.FC = () => {
               </div>
               
               <div className="flex space-x-5 opacity-0 animate-slide-up" style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}>
-                <a href="#" className="transform hover:scale-110 transition-transform duration-300">
+                <a href="https://github.com/Fleurdelys-1" className="transform hover:scale-110 transition-transform duration-300">
                   <Github className="w-6 h-6 text-gray-600 dark:text-gray-300" />
                 </a>
-                <a href="#" className="transform hover:scale-110 transition-transform duration-300">
+                {/* <a href="#" className="transform hover:scale-110 transition-transform duration-300">
                   <Linkedin className="w-6 h-6 text-gray-600 dark:text-gray-300" />
-                </a>
-                <a href="#" className="transform hover:scale-110 transition-transform duration-300">
+                </a> */}
+                {/* <a href="#" className="transform hover:scale-110 transition-transform duration-300">
                   <Mail className="w-6 h-6 text-gray-600 dark:text-gray-300" />
+                </a> */}
+                <a href="https://www.instagram.com/_4pippp/" className="transform hover:scale-110 transition-transform duration-300">
+                  <Instagram className="w-6 h-6 text-gray-600 dark:text-gray-300" />
                 </a>
               </div>
             </div>
@@ -141,7 +151,7 @@ export const HeroSection: React.FC = () => {
               }}
             >
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src="/images/about.png" 
                 alt="Portrait of John Doe" 
                 className="w-full h-auto"
               />
@@ -152,7 +162,7 @@ export const HeroSection: React.FC = () => {
               className="absolute -top-5 -left-5 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 opacity-0 animate-slide-right"
               style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
             >
-              <div className="text-xl font-bold text-gray-900 dark:text-white">5+</div>
+              <div className="text-xl font-bold text-gray-900 dark:text-white">1+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
             </div>
             
@@ -161,17 +171,17 @@ export const HeroSection: React.FC = () => {
               className="absolute -bottom-5 -right-5 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 opacity-0 animate-slide-left"
               style={{ animationDelay: '1.4s', animationFillMode: 'forwards' }}
             >
-              <div className="text-xl font-bold text-gray-900 dark:text-white">50+</div>
+              <div className="text-xl font-bold text-gray-900 dark:text-white">5+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
             </div>
           </div>
         </div>
         
         {/* Scroll down indicator */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-0 animate-fade-in" style={{ animationDelay: '1.8s', animationFillMode: 'forwards' }}>
+        {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-0 animate-fade-in" style={{ animationDelay: '1.8s', animationFillMode: 'forwards' }}>
           <span className="text-sm text-gray-600 dark:text-gray-400 mb-2">Scroll Down</span>
           <ArrowDown className="w-6 h-6 text-gray-600 dark:text-gray-400 animate-bounce" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

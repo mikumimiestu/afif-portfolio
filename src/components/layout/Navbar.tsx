@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
             href="#home" 
             className="text-2xl font-bold text-primary-600 dark:text-primary-400 tracking-tight"
           >
-            Portfolio
+            Afif Portfolio
           </a>
           
           {/* Desktop Navigation */}

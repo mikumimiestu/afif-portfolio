@@ -13,17 +13,17 @@ export const skills: Skill[] = [
   },
   {
     name: 'JavaScript',
-    percentage: 90,
+    percentage: 80,
     category: 'frontend',
   },
   {
     name: 'React.js',
-    percentage: 88,
+    percentage: 78,
     category: 'frontend',
   },
   {
     name: 'TypeScript',
-    percentage: 85,
+    percentage: 75,
     category: 'frontend',
   },
   {
@@ -43,36 +43,36 @@ export const skills: Skill[] = [
     percentage: 80,
     category: 'backend',
   },
-  {
-    name: 'Express.js',
-    percentage: 78,
-    category: 'backend',
-  },
+  // {
+  //   name: 'Express.js',
+  //   percentage: 78,
+  //   category: 'backend',
+  // },
   {
     name: 'MongoDB',
     percentage: 75,
     category: 'backend',
   },
-  {
-    name: 'PostgreSQL',
-    percentage: 72,
-    category: 'backend',
-  },
-  {
-    name: 'GraphQL',
-    percentage: 70,
-    category: 'backend',
-  },
+  // {
+  //   name: 'PostgreSQL',
+  //   percentage: 72,
+  //   category: 'backend',
+  // },
+  // {
+  //   name: 'GraphQL',
+  //   percentage: 70,
+  //   category: 'backend',
+  // },
   
   // Design
   {
     name: 'Figma',
-    percentage: 85,
+    percentage: 95,
     category: 'design',
   },
   {
     name: 'Adobe XD',
-    percentage: 80,
+    percentage: 90,
     category: 'design',
   },
   {
@@ -80,21 +80,36 @@ export const skills: Skill[] = [
     percentage: 82,
     category: 'design',
   },
+  {
+    name: 'Photoshop',
+    percentage: 85,
+    category: 'design',
+  },
+  {
+    name: 'Canva',
+    percentage: 90,
+    category: 'design',
+  },
   
   // Other
   {
     name: 'Git & GitHub',
-    percentage: 88,
+    percentage: 68,
     category: 'other',
   },
   {
-    name: 'Docker',
-    percentage: 65,
+    name: 'Adobe Premiere Pro',
+    percentage: 75,
     category: 'other',
   },
   {
-    name: 'AWS',
-    percentage: 60,
+    name: 'Adobe After Effects',
+    percentage: 80,
+    category: 'other',
+  },
+  {
+    name: 'Alight Motion',
+    percentage: 80,
     category: 'other',
   },
 ];

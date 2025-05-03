@@ -14,82 +14,57 @@ export const AboutSection: React.FC = () => {
         return (
           <div>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I'm a passionate web developer with expertise in building modern, responsive web applications.
-              With a strong foundation in front-end technologies and a keen eye for design, I create seamless 
-              user experiences that are both functional and visually appealing.
+            My name is AFIF ASMALENDRA PUTRA, I am a design assistant and front-end developer. With a strong foundation in front-end technologies and an eye for design, I create seamless user experiences that are both functional and visually appealing.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              My journey in web development began 5 years ago, and I've since worked with various clients 
-              and companies to bring their digital visions to life. I specialize in React.js and modern 
-              JavaScript frameworks, with a focus on creating fast, accessible, and user-friendly interfaces.
+            My journey in web development began 1 year ago, and since then I have worked with various clients and companies to bring their digital visions to life. I specialize in React.js and modern JavaScript frameworks for the front-end, Figma and Photoshop for design, with a focus on creating fast, accessible, and user-friendly interfaces.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-              projects, or sharing my knowledge through articles and tutorials. I'm constantly learning 
-              and evolving my skills to stay at the forefront of web development.
+            When I’m not coding, you’ll find me exploring new technologies, contributing to open source projects, or sharing my knowledge through articles and tutorials. I am constantly learning and developing my skills to stay on the cutting edge of web development.
             </p>
-            <Button icon={<Download size={16} />}>
+            {/* <Button icon={<Download size={16} />}>
               Download Resume
-            </Button>
+            </Button> */}
           </div>
         );
+      
+      // Experience Tab
       case 'experience':
         return (
           <div className="space-y-6">
             <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Senior Frontend Developer</h4>
-              <p className="text-primary-600 dark:text-primary-400">ABC Tech Inc. | 2021 - Present</p>
+              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Design Assistant</h4>
+              <p className="text-primary-600 dark:text-primary-400">Tech Nova Group| 2024 - Present</p>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Lead frontend development for enterprise applications, managing a team of developers
-                and implementing modern web technologies and best practices.
+                Collaborated with the design team to create user-friendly interfaces and improve user
+                experience. Assisted in conducting user research and usability testing.
               </p>
             </div>
-            <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Frontend Developer</h4>
-              <p className="text-primary-600 dark:text-primary-400">XYZ Solutions | 2018 - 2021</p>
-              <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Developed responsive web applications using React, Redux and TypeScript. Collaborated
-                with designers and back-end developers to create seamless user experiences.
-              </p>
-            </div>
-            <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Web Developer</h4>
-              <p className="text-primary-600 dark:text-primary-400">StartUp Studio | 2016 - 2018</p>
-              <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Built and maintained websites for various clients using JavaScript, HTML, and CSS.
-                Implemented responsive designs and ensured cross-browser compatibility.
-              </p>
-            </div>
+
           </div>
         );
+      
+      // Education Tab
       case 'education':
         return (
           <div className="space-y-6">
             <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Master's in Computer Science</h4>
-              <p className="text-primary-600 dark:text-primary-400">Tech University | 2014 - 2016</p>
+              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Bachelor's in Informatic Enginering</h4>
+              <p className="text-primary-600 dark:text-primary-400">Universitas Putra Indonesia "YPTK" Padang | 2024 - Present</p>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Specialized in Human-Computer Interaction and Web Technologies.
-                Graduated with honors.
+                Currently pursuing a Bachelor's degree in Informatics Engineering, focusing on software development, 
+                web technologies, and data science. Engaged in various projects and research to enhance practical skills.
               </p>
             </div>
-            <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Bachelor's in Computer Science</h4>
-              <p className="text-primary-600 dark:text-primary-400">State University | 2010 - 2014</p>
-              <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Focused on software development fundamentals, data structures, and algorithms.
-                Participated in multiple hackathons and coding competitions.
-              </p>
-            </div>
-            <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
-              <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Professional Certifications</h4>
+            {/* <div className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
+              <h4 className="text-lg font-semibold text-gray-800 dark:text-white"></h4>
               <p className="text-primary-600 dark:text-primary-400">Various | 2015 - Present</p>
               <ul className="text-gray-600 dark:text-gray-300 mt-2 list-disc list-inside">
                 <li>AWS Certified Developer</li>
                 <li>Google Cloud Professional Developer</li>
                 <li>React Certification - Meta</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         );
     }
@@ -122,7 +97,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-xl bg-primary-500 dark:bg-primary-700 transform rotate-6"></div>
               <img 
-                src="https://images.pexels.com/photos/3770000/pexels-photo-3770000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="/images/about.png"
                 alt="John Doe working at desk" 
                 className="relative z-10 rounded-xl shadow-lg w-full h-auto transform hover:scale-[1.02] transition-transform duration-300"
               />
@@ -143,7 +118,7 @@ export const AboutSection: React.FC = () => {
                   <Briefcase className="w-6 h-6 text-primary-600 dark:text-primary-400" />
                 </div>
                 <div>
-                  <div className="text-xl font-bold text-gray-900 dark:text-white">5+ Years</div>
+                  <div className="text-xl font-bold text-gray-900 dark:text-white">1+ Years</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Experience</div>
                 </div>
               </div>
