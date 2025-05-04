@@ -130,8 +130,8 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-800 dark:text-white">Email</h4>
-                    <a href="mailto:afif@technovagroupinc.com" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                      afif@technovagroupinc.com
+                    <a href="mailto:ofdarknesthrone@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                      ofdarknesthrone@gmail.com
                     </a>
                   </div>
                 </div>
